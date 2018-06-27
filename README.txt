@@ -8,7 +8,7 @@ How to compile :
 
 How to use:
 1.Put the program 'cad' in the circuit directory which contains circuit.config, circuit.cut, process.dat, rule.dat
-2.usage:  ./cad config_file_name 
-  note that config_file_name is the file name of config file, like 'circuit.config' 
+2.usage:  ./cad  <config_file_name>
+  note that <config_file_name> is the file name of config file, like 'circuit.config' 
   After execution, you would have a file named '*.fill' in current directory, in which all the fills should be inserted are shown
   
